@@ -21,7 +21,7 @@ This repository serves as a **comprehensive, battle-tested payload collection** 
 - 📚 **Continuously updated** with new vectors and techniques
 
 ---
-
+```
 ## 📂 Repository Structure
 
 https://github.com/yogsec/payloads/
@@ -59,7 +59,7 @@ https://github.com/yogsec/payloads/
     ├── websocket.md                   # WebSocket Attacks payloads
     ├── race-condition.md              # Race Condition (TOCTOU) payloads
     └── api-specific.md                # API Testing payloads
-
+```
 ---
 
 ## 🚀 Quick Start
