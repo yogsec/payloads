@@ -24,36 +24,41 @@ This repository serves as a **comprehensive, battle-tested payload collection** 
 
 ## 📂 Repository Structure
 
-All payloads are organized in separate markdown files for easy reference:
-payloads/
-├── README.md # You are here
-├── sqli.md # SQL Injection payloads
-├── xss.md # Cross-Site Scripting payloads
-├── command-injection.md # OS Command Injection
-├── ssrf.md # Server-Side Request Forgery
-├── lfi-path-traversal.md # LFI & Path Traversal
-├── xxe.md # XML External Entity
-├── ssti.md # Server-Side Template Injection
-├── open-redirect.md # Open Redirect
-├── auth-bypass.md # Authentication Bypass
-├── idor.md # IDOR / BOLA
-├── http-smuggling.md # HTTP Request Smuggling
-├── crlf.md # CRLF Injection
-├── cors.md # CORS Misconfiguration
-├── jwt.md # JWT Attacks
-├── deserialization.md # Insecure Deserialization
-├── graphql.md # GraphQL Attacks
-├── host-header.md # Host Header Injection
-├── csv-injection.md # CSV Injection
-├── mass-assignment.md # Mass Assignment
-├── log4shell.md # Log4Shell (JNDI)
-├── ldap.md # LDAP Injection
-├── xpath.md # XPATH Injection
-├── email-injection.md # Email Header Injection
-├── websocket.md # WebSocket Attacks
-├── race-condition.md # Race Condition (TOCTOU)
-└── api-specific.md # API Testing Payloads
-
+https://github.com/yogsec/payloads/
+│
+├── README.md                          # Main documentation (already provided above)
+│
+├── 📂 Tier 1: Core Essentials
+│   ├── sqli.md                        # SQL Injection payloads
+│   ├── xss.md                         # Cross-Site Scripting payloads
+│   ├── command-injection.md           # OS Command Injection payloads
+│   ├── ssrf.md                        # Server-Side Request Forgery payloads
+│   ├── lfi-path-traversal.md          # LFI & Path Traversal payloads
+│   ├── xxe.md                         # XML External Entity payloads
+│   ├── ssti.md                        # Server-Side Template Injection payloads
+│   ├── open-redirect.md               # Open Redirect payloads
+│   ├── auth-bypass.md                 # Authentication Bypass payloads
+│   └── idor.md                        # IDOR / BOLA payloads
+│
+├── 📂 Tier 2: Advanced Arsenal
+│   ├── http-smuggling.md              # HTTP Request Smuggling payloads
+│   ├── crlf.md                        # CRLF Injection payloads
+│   ├── cors.md                        # CORS Misconfiguration payloads
+│   ├── jwt.md                         # JWT Attacks payloads
+│   ├── deserialization.md             # Insecure Deserialization payloads
+│   ├── graphql.md                     # GraphQL Attacks payloads
+│   ├── host-header.md                 # Host Header Injection payloads
+│   ├── csv-injection.md               # CSV Injection payloads
+│   ├── mass-assignment.md             # Mass Assignment payloads
+│   └── log4shell.md                   # Log4Shell (JNDI) payloads
+│
+└── 📂 Tier 3: Specialized & Niche
+    ├── ldap.md                        # LDAP Injection payloads
+    ├── xpath.md                       # XPATH Injection payloads
+    ├── email-injection.md             # Email Header Injection payloads
+    ├── websocket.md                   # WebSocket Attacks payloads
+    ├── race-condition.md              # Race Condition (TOCTOU) payloads
+    └── api-specific.md                # API Testing payloads
 
 ---
 
